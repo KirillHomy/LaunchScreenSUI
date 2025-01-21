@@ -27,8 +27,7 @@ struct HomeScreen: View {
                 }
             }
             .navigationTitle("Home")
-            .toolbarBackground(Color.white, for: .navigationBar)
-            .toolbarBackground(.visible, for: .navigationBar)
+            .preferredColorScheme(.dark)
         }
     }
 }
